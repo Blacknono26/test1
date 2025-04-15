@@ -13,9 +13,9 @@ jobs:
       - name: Compiler le fichier LaTeX
         uses: xu-cheng/latex-action@v3
         with:
-          root_file: main.tex  # Mets le nom exact de ton fichier ici
+          root_file: eco-EPL1803-summary.tex  # Mets le nom exact de ton fichier ici
       - name: Upload PDF
         uses: actions/upload-artifact@v4
         with:
           name: document-pdf
-          path: main.pdf  # Nom du fichier généré
+          path: eco-EPL1803-summary.pdf  # Nom du fichier généré
